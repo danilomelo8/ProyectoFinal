@@ -1,8 +1,7 @@
 body{
-    background-image: url(./qatar.jpg);
-    background-size: cover;
-    
-}
+    background-image: url(./mundial.jpg);
+    background-size: 100%;
+     }
 .titulo{
     text-align: center;
     font-size: 60px;
@@ -12,17 +11,16 @@ body{
 .subtitulos{
     font-size: 40px;
 }
-img:hover{
-    transform: scale(2.15);}
-
-.img{
-    display: flex;
-    justify-content: center;
-}
 .texto{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
 table input {
     width: 2em;
+}
+#Tablapuntajes{
+    position: fixed;
+    top:400px;
+    right: 300px;
+    background-color: aliceblue;
 }
